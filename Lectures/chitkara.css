@@ -1,0 +1,32 @@
+.form{
+    width: 230px;
+    border: 5px solid black;
+    border-radius: 8PX;
+    margin-left: 1200px;
+    margin-top: 200px;
+    background-color: aliceblue;
+    }
+    .image{
+        width: 220px;
+        height: 100PX;
+    }
+    .user{
+    padding: 12px;
+    }
+    .one{
+        margin-left:12px;
+    }
+    .iii{
+        padding-left: 12px;
+    }
+    body{
+        background-image: url(chitkara.jpg);
+        background-repeat: no-repeat
+        ;
+        background-size: cover;
+    }
+    .new{
+        margin-left: 40px;
+        width: 160px;
+        color: brown;
+    }
