@@ -1,0 +1,36 @@
+body{
+background-color: aquamarine;
+border-radius: 3px;
+border-color: black;
+}
+h1{
+    color: blue;
+    text-align: center;
+    
+}
+.age{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+}
+.user{
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+    text-align: center;
+}
+.gender{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+.add{
+    font-weight: 100;
+    color: blue;
+    text-align: center;
+}
+.phone{
+    margin-left: 650px;
+    color: blue;
+}
