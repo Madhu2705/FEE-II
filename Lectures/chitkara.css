@@ -1,32 +1,33 @@
-.form{
-    width: 230px;
-    border: 5px solid black;
-    border-radius: 8PX;
-    margin-left: 1200px;
-    margin-top: 200px;
-    background-color: aliceblue;
-    }
-    .image{
-        width: 220px;
-        height: 100PX;
-    }
-    .user{
-    padding: 12px;
-    }
-    .one{
-        margin-left:12px;
-    }
-    .iii{
-        padding-left: 12px;
-    }
-    body{
-        background-image: url(chitkara.jpg);
-        background-repeat: no-repeat
-        ;
-        background-size: cover;
-    }
-    .new{
-        margin-left: 40px;
-        width: 160px;
-        color: brown;
-    }
+body{
+    background-image:url("chitkara.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+#main{
+    background-color: white;
+    height:500px;
+    width:300px;
+    margin-left:1000px;
+    margin-top: 150px;
+    border:1px black;
+    padding:10px;
+}
+#img{
+   
+    text-align:center;
+}
+#btwn{
+  padding:20px;
+    
+}
+#click{
+    text-decoration: none;
+}
+#sign{
+    width:200px;
+    height:30px;
+background-color: red;
+color:white;
+font-weight:bold;
+}
