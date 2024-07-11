@@ -32,6 +32,6 @@ input[type="password"]{
     background-color: blue;
 }
 
-input[type="Email"]{
+[placeholder="email"]{
     background-color: pink;
 }
