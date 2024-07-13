@@ -1,0 +1,23 @@
+/*Decendent selector*/
+ul li a{
+    color: blueviolet;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+/*child combinator*/
+ol > li{
+background-color: pink;
+}
+
+/*adjacent selector*/
+
+h3+p{
+    border-top: 2px solid blue;
+}
+/*general sibling*/
+
+div~h3{
+    color: green;
+    font-size: 30px;
+}
