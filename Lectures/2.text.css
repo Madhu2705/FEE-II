@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    /*text-align: end;*/
+    /*text-align: justify;*/
+    /*text-align: left;*/
+    /*text-align: right;*/
+}
+p{
+   text-align: justify;
+   /*text-align: inherit;*/
+
+}
+.a1{
+    text-align: inherit;
+}
+a{
+    /*text-decoration: none;*/
+    /*text-decoration: overline;*/
+    /*text-decoration: line-through;*/
+    /*text-decoration: underline;*/
+    text-decoration-color: aqua;
+    text-decoration-style:wavy;
+}
+h3{
+    text-shadow: 10px 8px 5px blue;
+    color: transparent;
+}
