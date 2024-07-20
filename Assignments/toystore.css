@@ -175,7 +175,7 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.container3 {
+.add {
     display: flex;
     gap: 20px;
 }
@@ -189,11 +189,11 @@ h1 {
     width: 300px;
 }
 
-.stuffed-animals {
+.stuffedanimals {
     background-color: #ffcc33;
 }
 
-.wooden-toys {
+.woddentoys {
     background-color: #ff4b5c;
 }
 
@@ -206,7 +206,7 @@ h1 {
     padding: 20px;
 }
 
-button {
+#shop {
     background-color: white;
     border: none;
     color: black;
@@ -219,6 +219,6 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
+#shop:hover {
     background-color: #ddd;
 }
