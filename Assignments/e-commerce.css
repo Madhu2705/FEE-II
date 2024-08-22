@@ -15,6 +15,7 @@ body{
     margin-bottom: 20px;
     border-bottom:3px solid blueviolet ;
     z-index: 2;
+    height: 50px;
 }
 .form-control{
     margin-top: 9px;
@@ -26,6 +27,14 @@ body{
     border-bottom-right-radius: 0;
     box-shadow: 0;
 
+}
+.dropdown{
+    display: flex;
+    flex-direction: row;
+}
+.dropdown-menu{
+    display: flex;
+    justify-content: end;
 }
 .input-group-text{
     background: blueviolet;
