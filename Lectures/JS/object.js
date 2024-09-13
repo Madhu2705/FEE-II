@@ -23,7 +23,7 @@ console.log(users['name'])
 //let arr =[1,2,[1,2,3],34]
 //console.log(arr[2,2])*/
 
-let users ={
+/*let users ={
     user1 :{
         name:'kkk',
         age:{
@@ -35,4 +35,14 @@ let users ={
 }
 }
 }
-console.log(users.user1.age.user2.age)
+console.log(users.user1.age.user2.age)*/
+
+
+//merge object
+obj1={name1:
+    'kanav',
+    age:24
+}
+obj2={name:'yash',age:25}
+obj3={...obj1,...obj2}
+console.log(obj3);
