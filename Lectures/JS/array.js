@@ -1,73 +1,73 @@
-let students = ['aman','shradha','manik'];
-console.log(students);
+//let students = ['aman','shradha','manik'];
+//console.log(students);
 
-let items = ['shivam','11603406','83.4%', 'Lovely Professional University'];
-console.log(items);
+//let items = ['shivam','11603406','83.4%', 'Lovely Professional University'];
+//console.log(items);
 
 // 1.Arrays are mutable:
-items[1] = 324;
-console.log(items)
+//items[1] = 324;
+//console.log(items)
 
 // 2.Accessing index 1 value inside  array:
-console.log(items[1]);
+//console.log(items[1]);
 
 // 3.Accessing length of array
-console.log(items.length)
+//console.log(items.length)
 
 // 4.Accessing not present value inside a array: undefined(result come)
-console.log(items[8])
+//console.log(items[8])
 
 // 5.Array type: object it is
-console.log(typeof(items))
+//console.log(typeof(items))
 
 // 6.Accessing array items particular element from that item:
-console.log(items[0][3]);
+//console.log(items[0][3]);
 
 //  ##### Array Method  #####
 
-let car = ['audi', 'bmw','xuv','maruti'];
+//let car = ['audi', 'bmw','xuv','maruti'];
 
 // console.log(car)
 
 // 1.PUSH: adds in 1st
-car.push('volvo')
-console.log(car)
+//car.push('volvo')
+//console.log(car)
 
 // 2.POP: removes end
-car.pop();
-console.log(car)
+//car.pop();
+//console.log(car)
 
 // 3.Unshift: 1st add
-car.unshift('mercedies');
-console.log(car)
+//car.unshift('mercedies');
+//console.log(car)
 
 // 4.shift: removes in first
-car.shift();
-console.log(car)
+//car.shift();
+//console.log(car)
 
 //5. indexof: return index of something.
-console.log(car.indexOf('maruti'))
-console.log(car.indexOf('Maruti'))
+//console.log(car.indexOf('maruti'))
+//console.log(car.indexOf('Maruti'))
 
 // 6. includes: tells wheather that value is present in array or not: true or false way
 
-console.log(car.includes('xuv'));
-console.log(car.includes('Xuv'));
+//console.log(car.includes('xuv'));
+//console.log(car.includes('Xuv'));
 
 // 7.concat: merges 2 arrays:
 
-let ar1 = ['apple','bananas','mangoes']
-let ar2 = ['grapes', 'watermelon', 'guava']
-console.log(ar1.concat(ar2));
+//let ar1 = ['apple','bananas','mangoes']
+//let ar2 = ['grapes', 'watermelon', 'guava']
+//console.log(ar1.concat(ar2));
 
 // 8. reverse: reverse an array:
-let rev = [1,2,3,4,5];
-console.log(rev.reverse());
+//let rev = [1,2,3,4,5];
+//console.log(rev.reverse());
 
 // 9. Slice: copies a portion of an array. 
-let letters = ['a','b','c','d','e','f'];
+//let letters = ['a','b','c','d','e','f'];
 
-console.log(letters.slice())
+//console.log(letters.slice())
 console.log(letters.slice(2))
 console.log(letters.slice(2,5))
 console.log(letters.slice(-2))
@@ -136,3 +136,7 @@ let mark1 = [ [98,67],[72,64], [53,27], [67,72]];
 console.log(mark1); 
 // to access array value
 console.log(mark1[3][1]);
+
+
+let arr1 = [1,2,3,4]//staring,ending-1
+console.log(arr1.slice(1))// [2,3,4]//
