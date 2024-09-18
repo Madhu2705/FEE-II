@@ -64,13 +64,13 @@
 //let rev = [1,2,3,4,5];
 //console.log(rev.reverse());
 
-// 9. Slice: copies a portion of an array. 
-//let letters = ['a','b','c','d','e','f'];
+ /*9. Slice: copies a portion of an array.*/ 
+let letter = ['a','b','c','d','e','f'];
 
-//console.log(letters.slice())
-console.log(letters.slice(2))
-console.log(letters.slice(2,5))
-console.log(letters.slice(-2))
+console.log(letter.slice())
+console.log(letter.slice(2))
+console.log(letter.slice(2,5))
+console.log(letter.slice(-2))
 
 
 // 10. splice: it is used for removing/replacing and adding new element in our array:
@@ -78,7 +78,7 @@ console.log(letters.slice(-2))
 // splice(start, deleteCount, item0 ... itemN)
 // It changes our original array where slice dont
 
-let fruits = ['apple','bananas','guava', 'pineapple'];
+/*let fruits = ['apple','bananas','guava', 'pineapple'];
 
 console.log(fruits.splice(3))  //It count from index 4 upto next string length
 console.log(fruits.splice(0,1));
@@ -139,4 +139,4 @@ console.log(mark1[3][1]);
 
 
 let arr1 = [1,2,3,4]//staring,ending-1
-console.log(arr1.slice(1))// [2,3,4]//
+console.log(arr1.slice(1))// [2,3,4]//*/

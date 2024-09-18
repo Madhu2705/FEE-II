@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    gap: 0;
+    border: 5px solid #333;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+}
+
+.white {
+    background-color: darkorange;
+}
+
+.black {
+    background-color: burlywood;
+}
