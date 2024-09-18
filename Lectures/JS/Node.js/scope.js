@@ -17,3 +17,26 @@ function func(){
     console.log(a);
 }
 func();
+
+//3.block scope:
+{
+    let a=15;
+    var c=25;
+    console.log(a);// show output
+}
+console.log(a)// only let or const is not working
+console.log(c);// show output
+
+//4.lexical scope:variable declared in outerfunction can be accessible by inner function but value assigned to inner function cannot be accessible
+//by outer function
+function sum(a,b){
+    var c=a+b;
+    console.log(c)
+    function value(e,f){
+        let d=e*f;
+        console.log(d);
+    }
+    value(3,4);
+}
+sum(3,4);
+
