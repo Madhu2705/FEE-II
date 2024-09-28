@@ -1,5 +1,5 @@
 //1.getElementById: Id selector:
-var a=document.getElementsByID("heading");
+var a=document.getElements45ByID("heading");
 console.log(a);
 console.dir(a);
 a.style.color="black";
