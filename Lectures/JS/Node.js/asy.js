@@ -48,7 +48,7 @@ clearInterval(b);
 console.log("work done");
 */
 //msg to friend  which execute for 3 times
-let count=0;
+/*let count=0;
 var c=setInterval(() => {
     count++
     console.log('message ${count}: Ghar k niche aaja');.
@@ -56,7 +56,7 @@ var c=setInterval(() => {
         clearInterval(c);
         console.log("execution stop");
     }
-});
+});*/
 
 
 
