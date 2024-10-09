@@ -51,12 +51,12 @@ console.log("work done");
 let count=0;
 var c=setInterval(() => {
     count++
-    console.log('message ${count}: Ghar k niche aaja');
+    console.log('message ${count}: Ghar k niche aaja');.
     if(count>=3){
         clearInterval(c);
         console.log("execution stop");
     }
 });
 
-//callback hell
+
 
