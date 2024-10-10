@@ -1,34 +1,47 @@
-function DownloadFile(url, downloadCallback) { //downloadCallback is the callback function
-    console.log("Started Downloading");
-    setTimeout(() => { // Fixed the spelling
-        let path = url.split("/").pop();
-        downloadCallback(path);
-    }, 2000);
-}
+// Suppose you want to maggie:
+// Step 1: maggi lene gaya : 2 sec
+// Step 2: mai maggi le k aa gaya
+// Step 3: maggi banana start: 2 sec
+// Step 4: maggi ban gayi
+// Step 5: maggi khana start: 2 sec
+// Step 6: maggi kha liya
 
-function compressfile(path, compressCallback) { //compressCallback is the callback function
-    console.log("File started compressing");
-    setTimeout(() => { // Fixed the spelling
-        const comp = path.split(".")[0] + ".zip";
-        compressCallback(comp);
-    }, 2000);
-}
+// // B) Sturucture way to write asynchronous programming to avoid callback hell:
 
-function uploadfile(path, uploadCallback) { //uploadCallback is the callback function
-    console.log("File started uploading");
-    setTimeout(() => { // Fixed the spelling
-        const url = "https://LocalStorage/" + path;
-        uploadCallback(url);
+function maggiLaao(cb) {
+    console.log("Maggi Lene gaya");
+    setTimeout(function () {
+      console.log("Maggi Lekar aa gaya");
+      cb(maggiKhao);
     }, 2000);
-}
-
-DownloadFile("https://www.xyz.com/abc.mp3", function (path) {
-    console.log(`File downloaded successfully: ${path}`);
-    compressfile(path, function (comp) {
-        console.log(`File compressed successfully: ${comp}`);
-        uploadfile(comp, function (upl) {
-            console.log(`File uploaded successfully: ${upl}`);
-            console.log("Everything is done");
-        });
-    });
-});
+  }
+  
+  function maggiBanno(cb) {
+    console.log("Maggi Banana Start");
+    setTimeout(function () {
+      console.log("Maggi Ban Gayi");
+    }, 2000);
+    cb();
+  }
+  
+  function maggiKhao() {
+    console.log("Maggi Khana Start");
+    setTimeout(function () {
+      console.log("Maggi Khana Samapt");
+    }, 2000);
+  }
+  maggiLaao(maggiBanno);
+  
+  //  // A. Callback Hell: Nested callback: Pyramid of DOOM:
+  // console.log("Maggi lene gaya");
+  // setTimeout(() => {
+  //   console.log("maggi le k aa gaya");
+  //   console.log("maggi banana start");
+  //   setTimeout(() => {
+  //     console.log("maggi ban gayi");
+  //     console.log("maggi khana start");
+  //     setTimeout(() => {
+  //       console.log("maggi khana samapat");
+  //     }, 2000);
+  //   }, 2000);
+  // }, 2000);
