@@ -1,62 +1,62 @@
-/*1.simple function
-function first(){
-    console.log("this is first function");
+// // C: Asynchronous way:
+
+console.log("Execution starts...");
+
+setTimeout(() => {
+  console.log("This is a Asynchronous execution");
+}, 1000);
+
+for (let i = 1; i < 1000; i++) {
+  console.log("####");
 }
+console.log("Execution Ended");
 
-function second(){
-    console.log("this is second function");
-}
+// // B: SetInteval: it execute the code in repeatedly manner: -------------------------------------------
 
-//2.function calling
-first();
-second();*/
+// // 3. create a count upto 3 times:
+// let count = 0;
 
-//2.function callback:
-/*function first(){
-    console.log("this is first function");
-}
+// const interval = setInterval(function () {
+//   count++;
+//   console.log(`Message: ${count}`);
 
-function second(call){
-    console.log("this is second function");
-}
-call();
-second(first);
+//   if (count >= 3) {
+//     clearInterval(interval);
+//     console.log("Inteval stop after executing 3 times");
+//   }
+// }, 1000);
 
-/*3.synchronous:
-console.log("started");
-function myfun(){
-    console.log("mufunc works");
-}
-myfunc();
-console.log("ends");*/
+// //  2. clearInteval:
+// console.log("Started");
+// const interval = setInterval(() => {
+//   console.log("This is a setInteval example");
+// });
+// clearInterval(interval);
+// console.log("Ended");
 
-// set timeout
-//require 1.callback function,2.delay
-/*console.log("image searching");
-let a= setTimeout(() => {
-    console.log("image rendered");
-}, 2000);
-clearTimeout(a);
-console.log("work done");
+// // 1.
+// setInterval(() => {
+//   console.log("This is a setInteval example");
+// });
 
-//set interval
-console.log("image searching");
-let b= setInterval(() => {
-    console.log("image rendered");
-},);
-clearInterval(b);
-console.log("work done");
-*/
-//msg to friend  which execute for 3 times
-/*let count=0;
-var c=setInterval(() => {
-    count++
-    console.log('message ${count}: Ghar k niche aaja');.
-    if(count>=3){
-        clearInterval(c);
-        console.log("execution stop");
-    }
-});*/
+// // A) setTimeout(callback, delay): This function execute after a specified delay.------------------
 
+// // 3. clearTimeout:
+// console.log("IMAGE SEARCHING STARTED");
+// const a = setTimeout(() => {
+//   console.log("IMAGE FETCHED");
+// }, 3000);
+// clearTimeout(a);
+// console.log("Searching ends");
 
+// //2.
+// console.log("IMAGE SEARCHING STARTED");
+// setTimeout(() => {
+//   console.log("IMAGE FETCHED");
+// }, 3000);
+// console.log("Searching ends");
 
+// // 1.
+// setTimeout(() => {
+//   console.log("Setinterval function is working");
+// }, 3000);
